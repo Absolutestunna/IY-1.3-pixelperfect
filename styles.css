@@ -35,13 +35,19 @@ ul {
 }
 .information {
   margin-right: 169px;
-  margin-top: 22px;
+  margin-top: 8px;
   display: block;
   float: right;
 }
 .information li {
+  font-family: font-family: 'Oswald', sans-serif;
   display: inline;
   margin-top: 18px;
+}
+.search {
+  float: right;
+  margin-top: -20.9px;
+  margin-right: -29px;
 }
 
 .ttag {
@@ -70,6 +76,7 @@ ul {
   text-align: center;
   margin-top: 158px;
   margin-bottom: 0;
+  padding: 0;
 }
 .spring {
   text-align: center;
