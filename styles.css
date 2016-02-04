@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/***************************
+HEADER, contains nav, title
+****************************/
+
+header {
+  background-image: url(NY.jpg);
+  height: 523px;
+  background-size: cover;
+}
+
+ul {
+  display: block;
+}
+.logo {
+  display: inline-block;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+.nav {
+  display: block;
+}
+.nav-title {
+  display: inline-block;
+  margin-top: -45px;
+  vertical-align: middle;
+
+}
+.information {
+  margin-right: 169px;
+  margin-top: 22px;
+  display: block;
+  float: right;
+}
+.information li {
+  display: inline;
+  margin-top: 18px;
+}
+
+.ttag {
+  position: relative;
+  margin: 10px auto 0;
+
+
+}
+.information ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.information li {
+  display: inline;
+  float: right;
+  margin-left: 10px;
+}
+
+#sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.surf {
+  /*margin: 166px 0 0 194px;;*/
+  font-size: 80px;
+  text-align: center;
+  margin-top: 158px;
+  margin-bottom: 0;
+}
+.spring {
+  text-align: center;
+  margin: 0;
+}
