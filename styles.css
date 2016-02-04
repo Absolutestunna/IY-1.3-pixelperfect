@@ -1,33 +1,82 @@
 body {
   margin: 0;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
 
 }
 
 /***************************
-HEADER, contains nav, title
+HEADER (contains nav, title)
 ****************************/
+
+
 
 header {
   background-image: url(NY.jpg);
   height: 523px;
   background-size: cover;
 }
+.nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-right: 2.75%;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 6px;
+  margin-left: 14px;
+  letter-spacing: 2px;
+}
+.nav-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+}
+.information {
+  float: right;
+  margin-top: 10px;
+}
+.information ul {
+  margin-top: 3px;
+  padding: 0;
+}
+.information li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  letter-spacing: -0.6px;
+}
+.about {
+  margin-right: 11px;
+}
+.img {
+  
+}
 
+/*
 ul {
   display: block;
 }
 .logo {
   display: inline-block;
-  margin-left: 140px;
-  margin-top: 10px;
+  margin-left: 138px;
+  margin-top: 9px;
 }
 .nav {
+  max-width: 1018px;
+  margin: 0 auto;
   display: block;
 }
 .nav-title {
+  font-family: 'Open Sans', sans-serif;
   display: inline-block;
   margin-top: -45px;
   vertical-align: middle;
@@ -40,7 +89,7 @@ ul {
   float: right;
 }
 .information li {
-  font-family: font-family: 'Oswald', sans-serif;
+  /*font-family: font-family: 'Oswald', sans-serif;
   display: inline;
   margin-top: 18px;
 }
@@ -54,7 +103,6 @@ ul {
   position: relative;
   margin: 10px auto 0;
 
-
 }
 .information ul {
   margin: 0;
@@ -66,12 +114,9 @@ ul {
   float: right;
   margin-left: 10px;
 }
-
-#sans {
-  font-family: 'Open Sans', sans-serif;
-}
 .surf {
-  /*margin: 166px 0 0 194px;;*/
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 80px;
   text-align: center;
   margin-top: 158px;
@@ -81,4 +126,4 @@ ul {
 .spring {
   text-align: center;
   margin: 0;
-}
+}*/
