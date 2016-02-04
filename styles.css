@@ -51,14 +51,26 @@ header {
   list-style: none;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 19px;
-  letter-spacing: -0.6px;
+  font-size: 17.5px;
+  /*letter-spacing: -0.3px;*/
 }
 .about {
-  margin-right: 11px;
+  margin-right: 8px;
+}
+.about  {
+  position: relative;;
+  top: -5px;
+  left: -1.5px;
+}
+.search {
+  position: relative;
+  top: -5px;
+  left: 1.5px;
+
 }
 .img {
-  
+  margin-top: 4px;
+  margin-right: 2px;
 }
 
 /*
