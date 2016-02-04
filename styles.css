@@ -10,18 +10,18 @@ h6 {
   font-family: 'Open Sans', sans-serif;
 
 }
-
-/***************************
+/******************************************
 HEADER (contains nav, title)
-****************************/
-
-
+*******************************************/
 
 header {
   background-image: url(NY.jpg);
   height: 523px;
   background-size: cover;
 }
+/***************************
+          nav
+****************************/
 .nav {
   max-width: 1018px;
   margin: 0 auto;
@@ -52,8 +52,8 @@ header {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 17.5px;
-  /*letter-spacing: -0.3px;*/
 }
+
 .about {
   margin-right: 8px;
 }
@@ -72,7 +72,24 @@ header {
   margin-top: 4px;
   margin-right: 2px;
 }
-
+/***************************
+          title
+****************************/
+.surf {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 102px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 0;
+  letter-spacing: -3px;
+}
+.spring {
+  font-size: 15px;
+  text-align: center;
+  margin-top: -20px;
+  margin-left: -7px;
+  padding: 0;
+}
 /*
 ul {
   display: block;
@@ -126,15 +143,7 @@ ul {
   float: right;
   margin-left: 10px;
 }
-.surf {
 
-  font-family: 'Open Sans', sans-serif;
-  font-size: 80px;
-  text-align: center;
-  margin-top: 158px;
-  margin-bottom: 0;
-  padding: 0;
-}
 .spring {
   text-align: center;
   margin: 0;
