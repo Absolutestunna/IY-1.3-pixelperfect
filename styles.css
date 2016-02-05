@@ -8,17 +8,24 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
-
 }
 /******************************************
 HEADER (contains nav, title)
 *******************************************/
-
+.cover {
+  position: absolute;
+  height: 523px;
+  width: 100%;
+  background-color: rgba(221, 230, 204, .35);
+  /*opacity: .35;*/
+}
 header {
+  position: relative;
   background-image: url(NY.jpg);
   height: 523px;
   background-size: cover;
 }
+
 /***************************
           nav
 ****************************/
@@ -26,6 +33,7 @@ header {
   max-width: 1018px;
   margin: 0 auto;
   padding-right: 2.75%;
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -82,6 +90,7 @@ header {
   margin-top: 130px;
   margin-bottom: 0;
   letter-spacing: -3px;
+  position: relative;
 }
 .spring {
   font-size: 15px;
@@ -89,62 +98,19 @@ header {
   margin-top: -20px;
   margin-left: -7px;
   padding: 0;
-}
-/*
-ul {
-  display: block;
-}
-.logo {
-  display: inline-block;
-  margin-left: 138px;
-  margin-top: 9px;
-}
-.nav {
-  max-width: 1018px;
-  margin: 0 auto;
-  display: block;
-}
-.nav-title {
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  margin-top: -45px;
-  vertical-align: middle;
-
-}
-.information {
-  margin-right: 169px;
-  margin-top: 8px;
-  display: block;
-  float: right;
-}
-.information li {
-  /*font-family: font-family: 'Oswald', sans-serif;
-  display: inline;
-  margin-top: 18px;
-}
-.search {
-  float: right;
-  margin-top: -20.9px;
-  margin-right: -29px;
-}
-
-.ttag {
   position: relative;
-  margin: 10px auto 0;
-
-}
-.information ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.information li {
-  display: inline;
-  float: right;
-  margin-left: 10px;
 }
 
-.spring {
-  text-align: center;
-  margin: 0;
-}*/
+/***************************************************************
+BODY (contains body portion, side bar, and most popular posts )
+****************************************************************/
+
+.headline {
+  display: inline-block;
+  max-width: 615px;
+  max-height: 937px;
+  margin-left: 164px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  letter-spacing: -3px;
+}
