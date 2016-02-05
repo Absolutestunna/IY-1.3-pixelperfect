@@ -101,16 +101,78 @@ header {
   position: relative;
 }
 
-/***************************************************************
-BODY (contains body portion, side bar, and most popular posts )
-****************************************************************/
+/*******************************************************************************
+BODY (contains  headline and contents, side bar, and most popular posts )
+*******************************************************************************/
+
+/*******************************
+headline title, author and date
+*******************************/
 
 .headline {
   display: inline-block;
   max-width: 615px;
   max-height: 937px;
   margin-left: 164px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
-  letter-spacing: -3px;
+  margin-top: 12px;
+  padding: 0;
+
 }
+.headline-head {
+  margin-top: 39px;
+}
+.headline-sub1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 57px;
+  font-size: 63px;
+  margin-bottom: 0;
+  letter-spacing: -1.4px;
+}
+.headline-sub2 {
+  position: relative;
+  top: -25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: none;
+  font-size: 57px;
+  font-size: 63px;
+  margin-top: 0;
+}
+.author-description {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -29px;
+
+}
+.author  {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.author-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-left: 1.5px;
+  padding-right: 3px;
+
+}
+.author-img img {
+  border-radius: 50%;
+}
+.author-date {
+  display: inline-block;
+  margin-left: 12px;
+  position: relative;
+  top: 1px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12.3px;
+}
+.author-date span {
+  text-decoration: underline;
+}
+
+/*********************
+  headline contents
+*********************/
