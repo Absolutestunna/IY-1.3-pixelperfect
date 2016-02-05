@@ -115,6 +115,7 @@ headline title, author and date
   max-height: 937px;
   margin-left: 164px;
   margin-top: 12px;
+  margin-right: 83px;
   padding: 0;
   float: left;
 
@@ -223,15 +224,25 @@ headline title, author and date
 }
 .bnav li {
   display: inline-block;
-  background-color: yellow;
+  background-color: #5D686E;
   height: 33px;
+  color: white;
 }
 .bnav i {
-  width: 52px;
+  width: 29px;
+
 }
 .bnav button {
   border: none;
-  background-color: blue;
+  background-color: #A3B2BF;
   color: white;
   height: 33px;
+}
+/*******************************
+          sidebar
+*******************************/
+.sidebar {
+  max-width: 278px;
+  max-height: 937px;
+  display: inline-block;
 }
