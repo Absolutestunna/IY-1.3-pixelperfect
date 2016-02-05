@@ -216,3 +216,22 @@ headline title, author and date
   margin-top: 9px;
   letter-spacing: -.5px;
 }
+
+.bnav {
+  list-style: none;
+  padding: 0;
+}
+.bnav li {
+  display: inline-block;
+  background-color: yellow;
+  height: 33px;
+}
+.bnav i {
+  width: 52px;
+}
+.bnav button {
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 33px;
+}
