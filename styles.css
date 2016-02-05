@@ -245,4 +245,46 @@ headline title, author and date
   max-width: 278px;
   max-height: 937px;
   display: inline-block;
+  margin-top: 83px;
+
+}
+.author-information img {
+  display: inline-block;
+  margin-left: 34.8920%;
+  margin-right: 34.8920%;
+  border-radius: 50%;
+}
+.author-information h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: ;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-right: 2px;
+  padding: 0;
+  letter-spacing: -1.8px;
+}
+.author-information ul {
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.author-information li {
+  display: inline-block;
+  list-style: none;
+}
+.ad {
+  float: right;
+  margin-top: 4px;
+}
+.side-description {
+  float: left;
+}
+.side-description h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 28px;
+}
+.side-description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 160%;
 }
