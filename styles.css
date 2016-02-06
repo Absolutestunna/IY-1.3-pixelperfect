@@ -9,6 +9,7 @@ h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
 }
+
 /******************************************
 HEADER (contains nav, title)
 *******************************************/
@@ -110,7 +111,7 @@ headline title, author and date
 *******************************/
 
 .headline {
-  display: inline-block;
+  /*display: inline-block;*/
   max-width: 615px;
   max-height: 937px;
   margin-left: 164px;
@@ -287,4 +288,9 @@ headline title, author and date
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 160%;
+  position: relative;
+  top: -14px;
 }
+/***************
+Popular posts
+****************/
