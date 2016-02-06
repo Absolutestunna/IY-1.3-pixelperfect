@@ -317,8 +317,9 @@ Popular posts
 }
 .pimages ul{
   padding: 0;
-  margin: 0 auto;
   margin-top: 20px;
+  position: relative;
+  bottom: 12px;
 }
 .pimages li {
   list-style: none;
