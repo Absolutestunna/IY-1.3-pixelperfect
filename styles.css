@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -247,6 +248,7 @@ headline title, author and date
   max-height: 937px;
   display: inline-block;
   margin-top: 83px;
+  margin-bottom: 155px;
 
 }
 .author-information img {
@@ -294,3 +296,36 @@ headline title, author and date
 /***************
 Popular posts
 ****************/
+.popular  {
+  position: relative;
+  top: -20px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  border-top: 1px solid gray;
+}
+.popular h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: 13px;
+  word-spacing: 2px;
+  letter-spacing: -0.7px;
+  font-weight: normal;
+}
+.pimages ul{
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.pimages li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  line-height: 0;
+
+}
