@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /*margin: 0 auto;*/
   padding: 0;
 }
 h1,
@@ -18,8 +18,8 @@ HEADER (contains nav, title)
   position: absolute;
   height: 523px;
   width: 100%;
-  background-color: rgba(221, 230, 204, .35);
-  /*opacity: .35;*/
+  background-color: #14508A;
+  opacity: .35;
 }
 header {
   position: relative;
@@ -202,8 +202,6 @@ headline title, author and date
   height: 56px;
   position: relative;
   bottom: 18px;
-
-
 }
 #bquote p {
   margin-left: 15px;
@@ -245,7 +243,7 @@ headline title, author and date
 *******************************/
 .sidebar {
   max-width: 278px;
-  max-height: 937px;
+  /*max-height: 937px;*/
   display: inline-block;
   margin-top: 83px;
   margin-bottom: 155px;
@@ -297,36 +295,119 @@ headline title, author and date
 Popular posts
 ****************/
 .popular  {
-  position: relative;
-  top: -20px;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
   border-top: 1px solid gray;
 }
+#popular-cover1 {
+  position: absolute;
+  background-color: #073553;
+  opacity: .35;
+  height: 330px;
+  width: 320px;
+  display: inline-block;
+}
+
+#popular-cover2 {
+  position: absolute;
+  background-color: #073553;
+  opacity: .35;
+  height: 330px;
+  width: 320px;
+  display: inline-block;
+
+}
+#popular-cover3 {
+  position: absolute;
+  background-color: #073553;
+  opacity: .35;
+  height: 330px;
+  width: 320px;
+  display: inline-block;
+
+}
+#popular-cover4 {
+  position: absolute;
+  background-color: #073553;
+  opacity: .35;
+  height: 330px;
+  width: 320px;
+  display: inline-block;
+
+}
+
 .popular h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
   text-align: center;
   margin-top: 22px;
   margin-left: 13px;
+  margin-bottom: 30px;
   word-spacing: 2px;
   letter-spacing: -0.7px;
   font-weight: normal;
 }
 .pimages ul{
   padding: 0;
-  margin-top: 20px;
-  position: relative;
-  bottom: 12px;
 }
 .pimages li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
+  color: #073553;
+  background-image: url("http://www.nicenicejpg.com/320/330");
+  list-style: none;
+  height: 330px;
+  padding: 0;
+  display: inline-block;
+  width: 320px;
+  float: left;
+}
+
+
+/********************************************************
+FOOTER (contains IY logo, copyright, and navigation items)
+*********************************************************/
+footer {
+  margin-top: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 33px;
+  padding-left: 151px;
+  background-color: #073553;
+  color: #A3B2BF;
+}
+.footer-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -19px;
+  color: #9CAEBA;
+
+}
+.footer-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -18px;
+  font-size: 14px;
+  word-spacing: -2.7px;
+  letter-spacing: 0.03px;
+}
+.footer-info {
+  float: right;
+}
+.footer-info ul {
+  margin-top: 5px;
+  font-size: 13.5px;
+  margin-right: 140px;
+
+}
+.footer-info li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
   list-style: none;
   display: inline-block;
-  padding: 0;
-  margin: 0;
-  float: left;
-  line-height: 0;
-
+  word-spacing: -1px;
+  letter-spacing: -0.7px;
+  color: #A3B2BF;
+}
+.footer-info span {
+  margin-left: 3px;
 }
