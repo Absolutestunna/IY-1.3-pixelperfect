@@ -86,6 +86,7 @@ header {
 .surf {
   font-family: 'Open Sans', sans-serif;
   font-size: 102px;
+  color: #FFFFFF;
   text-align: center;
   margin-top: 130px;
   margin-bottom: 0;
@@ -94,6 +95,7 @@ header {
 }
 .spring {
   font-size: 15px;
+  color: #093656;
   text-align: center;
   margin-top: -20px;
   margin-left: 11px;
@@ -124,6 +126,7 @@ headline title, author and date
   margin-top: 39px;
 }
 .headline-sub1 {
+  color: #073553;
   font-family: 'Oswald', sans-serif;
   font-size: 57px;
   font-size: 63px;
@@ -131,6 +134,7 @@ headline title, author and date
   letter-spacing: -1.4px;
 }
 .headline-sub2 {
+  color: #073553;
   position: relative;
   top: -25px;
   font-family: 'Oswald', sans-serif;
@@ -147,6 +151,7 @@ headline title, author and date
 
 }
 .author  {
+  color: #126EB3;
   display: inline-block;
   vertical-align: middle;
   font-family: 'Open Sans', sans-serif;
@@ -164,6 +169,7 @@ headline title, author and date
   border-radius: 50%;
 }
 .author-date {
+  color: #A3B2BF;
   display: inline-block;
   margin-left: 12px;
   position: relative;
@@ -192,11 +198,13 @@ headline title, author and date
 }
 #secondp span{
   text-decoration: underline;
+  color: #A3B2BF;
 }
 #bquote {
+  color: #126EB3;
   margin-left: 5px;
   margin-bottom: 0;
-  border-left: 2px solid gray;
+  border-left: 2px solid #D3D3D3;
   height: 56px;
   position: relative;
   bottom: 18px;
@@ -214,6 +222,10 @@ headline title, author and date
 #thirdp {
   margin-top: 9px;
   letter-spacing: -.5px;
+}
+#thirdp span {
+  text-decoration: underline;
+  color: #126EB3;
 }
 
 .bnav {
@@ -255,7 +267,7 @@ headline title, author and date
 }
 .author-information h3 {
   font-family: 'Open Sans', sans-serif;
-  font-size: ;
+  color: #126EB3;
   text-align: center;
   margin-top: 4px;
   margin-bottom: 0;
@@ -268,10 +280,32 @@ headline title, author and date
   margin: 0 auto;
 }
 .author-information li {
+  color: #A3B2BF;
+  font-size: 13px;
+  font-weight: lighter;
   display: inline-block;
   list-style: none;
+  margin-left: 2px;
+  letter-spacing: -0.08px;
+}
+.author-information span {
+  margin-left: 5px;
+  color: #FAFAFA;
+}
+.side-img {
+  width: 278px;
+  height: 300px;
+  background-image: url("http://www.nicenicejpg.com/278/300");
+}
+.side-imgc {
+    position: absolute;
+    height: 300px;
+    width: 278px;
+    background-color: #14508A;
+    opacity: .5;
 }
 .ad {
+  color: #A3B2BF;
   float: right;
   margin-top: 4px;
 }
@@ -280,10 +314,12 @@ headline title, author and date
 }
 .side-description h3 {
   font-family: 'Oswald', sans-serif;
+  color: #126EB3;
   margin-top: 28px;
 }
 .side-description p {
   font-family: 'Open Sans', sans-serif;
+  color: #A3B2BF;
   font-size: 14px;
   line-height: 160%;
   position: relative;
@@ -294,6 +330,19 @@ Popular posts
 ****************/
 .popular  {
   border-top: 1px solid gray;
+}
+.popular h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-weight: normal;
+  color: #073553;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: 13px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+  letter-spacing: -0.7px;
+
 }
 #popular-cover1 {
   position: absolute;
@@ -338,18 +387,6 @@ Popular posts
   background-image: url("http://www.nicenicejpg.com/320/330");
   color: yellow;
 
-}
-
-.popular h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 64px;
-  text-align: center;
-  margin-top: 22px;
-  margin-left: 13px;
-  margin-bottom: 30px;
-  word-spacing: 2px;
-  letter-spacing: -0.7px;
-  font-weight: normal;
 }
 .pimages ul{
   padding: 0;
