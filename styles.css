@@ -18,7 +18,7 @@ HEADER (contains nav, title)
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #5B5A58;
+  background-color: #5B9ADA;
   opacity: .8;
 }
 header {
@@ -462,7 +462,7 @@ Popular posts
   font-family: 'Oswald', sans-serif;
   font-size: 27px;
   color: #073553;
-  background-image: url("http://www.placecage.com/g/320/330");
+  background-image: url("http://www.placecage.com/g/330/330");
   list-style: none;
   height: 330px;
   padding: 0;
